@@ -1,0 +1,25 @@
+{
+  "name": "apistats",
+  "version": "1.0.0",
+  "description": "Collect statistics for your REST API calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekb21/apistats.git"
+  },
+  "keywords": [
+    "API",
+    "statistics",
+    "count",
+    "per/second"
+  ],
+  "author": "Abhishek Bhattacharyya <abhishek.bhattacharyyya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekb21/apistats/issues"
+  },
+  "homepage": "https://github.com/abhishekb21/apistats#readme"
+}
