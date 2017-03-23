@@ -25,7 +25,8 @@ app.all('*',apistats.map)
 ```
 
 # Features
-v1.0.0 : Count the number of times an API is called taking path and query parameters into account
+## v1.0.0 
+Count the number of times an API is called taking path and query parameters into account
 
 # Dependency
 Express > 2.x
@@ -35,3 +36,9 @@ Mean execution time : 0.762ms (50 runs)
 Min execution time : 0.321ms
 Max execution time : 3.323ms
 API stats will add 0.762ms on an average to every API call whose analytics you want to collect
+
+# Memory Footprint
+constant * O(n) where n = number of API calls to be stored and the constant depends on the size in bytes for the API
+
+# CPU Footprint
+Minimal 
